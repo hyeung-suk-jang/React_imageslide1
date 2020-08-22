@@ -1,0 +1,60 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+.container{
+    /* width: 100vw; */
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.phoneFlex{
+    display: flex;
+    position: absolute;
+    height: 100%;
+    transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+   
+}
+.phoneSlide{
+   width: 100vw;
+   height: 500px;
+}
+
+.slider .fa{
+    font-size: 30px;
+    box-shadow: 5px 1px 5px 1px  grey;
+    width: 40px;
+    height: 30px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    text-align: center;
+    padding:10px;
+    transition: 2s;
+    margin-top: 40px;
+}
+.slider .fa:hover{
+    transform: scale(1.1);
+    color: greenyellow;
+}
+.btnLeft{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    
+}
+.btnRight{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.btnStyle{
+    padding: 10px 25px;
+    color:white;
+    background-color: rgb(131, 126, 126);
+    border-style: none;
+    border-radius: 5px;
+    
+}
